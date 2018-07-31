@@ -36,7 +36,7 @@ view: orders {
     sql: ${TABLE}.Delivery_Date ;;
   }
 
-  dimension: delivery_time {
+  dimension: delivery_time_Number {
     type: number
     sql: ${TABLE}.Delivery_Time ;;
   }
