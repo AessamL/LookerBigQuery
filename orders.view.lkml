@@ -164,4 +164,8 @@ view: orders {
     type: count
     drill_fields: [order_id, customer_name]
   }
+  measure: SumGrossProfit {
+    type: sum
+    sql: ${TABLE}.Gross_Profit ;;
+  }
 }
